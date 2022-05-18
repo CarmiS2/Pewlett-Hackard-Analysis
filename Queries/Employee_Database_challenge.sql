@@ -30,3 +30,29 @@ INTO retiring_titles
 from unique_titles as u
 group by title
 order by tic DESC;
+
+-- deliverable 2 
+
+SELECT e.emp_no,
+	e.first_name,
+	e.last_name,
+	e.birth_date, 
+	de.from_date, 
+	de.to_date,
+	ti.title
+INTO mentorship_eligibility
+FROM employees as e
+INNER JOIN dept_emp AS de
+ON (e.emp_no = de.emp_no)
+INNER JOIN titles AS ti
+ON (e.emp_no = ti.emp_no)
+WHERE (de.to_date = '9999-01-01')
+AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31');
+
+SELECT COUNT(emp_no) as tic, 
+	title
+-- INTO retiring_titles
+from mentorship_eligibility as u
+group by title
+order by tic DESC;
+Select * from retiring_titles
