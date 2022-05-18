@@ -7,7 +7,8 @@ The purpose of this project is to identify the amount of employees that will be 
 - Identify the employees that will be retiring  
 Using the block of SQL we are able to pull from the data and apply a filter of employees born between 1/1/1952 and 12/31/1995. 
 
-![This is an image](Data/Table-Code images/A.1 code.PNG)
+![this is an image](Data/code_tables/A.1 code.png)
+
 
 The following table was created. This table has duplicated entries for some employees due to internal promotions. 
 
