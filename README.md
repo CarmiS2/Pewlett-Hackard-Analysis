@@ -6,12 +6,18 @@ The purpose of this project is to identify the amount of employees that will be 
 ## Employee Database Results:
 - Identify the employees that will be retiring  
 Using the block of SQL we are able to pull from the data and apply a filter of employees born between 1/1/1952 and 12/31/1995. 
+
 ![This is an image](Data/Table-Code images/A.1 code.PNG)
+
 The following table was created. This table has duplicated entries for some employees due to internal promotions. 
+
 ![This is an image](Data/Table-Code images/A.1 table.PNG)
+
 - Identify the amount of retire eligible and their most recent job title 
 Next a query was created to create a table containing the employee number, full name and most recent table. To do this we removed the duplicate entries and filtered to include only employees that are currently employed. 
+
 ![This is an image] (Data/Table-Code images/B.1 Code.PNG)
+
 This resulted in the below table. 
 ![This is an image](Data/Table-Code images/B.1 table.PNG)
 - Identify the amount of employees of each title that will be retiring 
