@@ -12,7 +12,7 @@ Using the block of SQL we are able to pull from the data and apply a filter of e
 
 The following table was created. This table has duplicated entries for some employees due to internal promotions. 
 
-![This is an image](Data/Table-Code images/A.1 table.PNG)
+![This is an image]([Data/Table-Code images/A.1 table.PNG](https://github.com/CarmiS2/Pewlett-Hackard-Analysis/blob/main/Data/code_tables/A.1%20code.png))
 
 - Identify the amount of retire eligible and their most recent job title 
 Next a query was created to create a table containing the employee number, full name and most recent table. To do this we removed the duplicate entries and filtered to include only employees that are currently employed. 
