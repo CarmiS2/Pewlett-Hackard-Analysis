@@ -25,7 +25,7 @@ Creating a high level overview of the amount of employees per title we used the 
 ![This is an image](Data/Table-Code images/C.1 code.PNG)
 - Provided a list of the possible employees that are eligible for a mentorship program. 
 To better prepare the amount of employees that are leaving we queried and executed code using SQL to pull the amount of employees that are currently employed and born between January 1, 1965 and December 31, 1965. 
-![This is an image](Data/Table-Code images/Capture.PNG)
+![This is an image]([Data/Table-Code images/Capture.PNG](https://github.com/CarmiS2/Pewlett-Hackard-Analysis/blob/8d9fab7823d781dac09a2138137fadf17c8e2e56/Data/Table-Code%20images/Capture.PNG))
 
 
 ## Summary:
