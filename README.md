@@ -1,5 +1,4 @@
-
-#Operation “Silver Tsunami” - Pewlett-Hackard-Analysis
+# Operation “Silver Tsunami” - Pewlett-Hackard-Analysis
 
 ## Overview of analysis: 
 The purpose of this project is to identify the amount of employees that will be retiring soon, as well as determine the amount of employees that are eligible to participate in a mentorship program to help the company fill these positions. We are able to gather this data by utilizing SQL. 
