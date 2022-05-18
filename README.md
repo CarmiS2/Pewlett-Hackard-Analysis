@@ -19,7 +19,9 @@ Next a query was created to create a table containing the employee number, full 
 ![This is an image] (Data/Table-Code images/B.1 Code.PNG)
 
 This resulted in the below table. 
+
 ![This is an image](Data/Table-Code images/B.1 table.PNG)
+
 - Identify the amount of employees of each title that will be retiring 
 Creating a high level overview of the amount of employees per title we used the below code to help quickly determine the amount of employees leaving grouped by titles they hold. 
 ![This is an image](Data/Table-Code images/C.1 code.PNG)
